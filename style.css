@@ -1,0 +1,48 @@
+#container-image {
+    position: relative;
+    height: 90vh;
+    width: 90vw;
+
+    background: url('background.png');
+    background-size: cover;
+}
+
+.botaorastreio {
+    border-radius: 10px;
+    padding: 1.2rem 3rem;
+    background-color: #6379B3;
+    color: white;
+    border: 1px;
+    transition: ease-in-out 0.4s;
+}
+.botaorastreio:hover {
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    padding: 1.2rem;
+    opacity: 80%;
+    border: 1px;
+    border-color: black;
+    transition: ease-in-out 0.4s;
+}
+
+.formulario {
+    padding: 1.2rem 5rem;
+    align-items: center;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+    outline: none;
+    border: 1px;
+    transition: ease-in-out 0.4s;
+}
+
+.formulario:hover {
+    padding: 1.2rem 3rem;
+    text-decoration: none;
+    opacity: 80%;
+    outline: none;
+    transition: ease-in-out 0.4s;
+}
